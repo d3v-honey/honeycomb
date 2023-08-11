@@ -1,10 +1,10 @@
-import { Navbar } from './components'
+import { Hero, Navbar } from './components'
 
 export default function Home() {
   return (
-    <div>
+    <div className='App'>
       <Navbar />
-      
+      <Hero />
     </div>
   )
 }
