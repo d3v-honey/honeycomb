@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {}
+@import url(./fonts.css);
+
+:root {
+  --color-honey: '#ffc53e';
+}
 
 @media (prefers-color-scheme: dark) {
   :root {}
+}
+
+.App {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: larger; 
 }
 
 body {
